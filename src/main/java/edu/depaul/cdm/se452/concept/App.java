@@ -12,7 +12,6 @@ public class App {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Sysm
 		SpringApplication.run(App.class, args);
 	}
 
