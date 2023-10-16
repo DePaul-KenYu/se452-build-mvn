@@ -1,0 +1,24 @@
+server:
+  port: 8000
+
+spring:
+  datasource:
+    url: "jdbc:h2:mem:demo-db;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE"
+    driverClassName: "org.h2.Driver"
+  h2:
+    console.enabled: true
+
+  jpa:
+    show-sql: true
+    hibernate.ddl-auto: create-drop
+    defer-datasource-initialization: true
+
+app:
+  doc:
+    version: 2023-Fall
+    title: SE352-452 Concept API3 Testing
+    description: This is a sample documentation for SE352-452 Concepts a library for OpenAPI 3 with spring boot.
+    terms-of-service: http://swagger.io/terms/
+    license:  Apache 2.0
+    url: http://springdoc.org       
+  

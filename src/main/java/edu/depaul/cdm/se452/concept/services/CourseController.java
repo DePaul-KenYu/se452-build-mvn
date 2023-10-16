@@ -25,6 +25,10 @@ public class CourseController {
     @Autowired
     private CourseRepository repo;
 
+    
+    /** 
+     * @return List<Course>
+     */
     @GetMapping("/")
     public List<Course> findAll() {
         List<Course> retval = StreamSupport.stream(repo.findAll().spliterator(), false).collect(Collectors.toList());

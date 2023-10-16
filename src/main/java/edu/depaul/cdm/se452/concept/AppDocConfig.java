@@ -35,7 +35,11 @@ public class AppDocConfig {
 		  .license(new License().name(license)
 		  .url(url)));
 	}	
-    @Bean
+    
+	/** 
+	 * @return CommonsRequestLoggingFilter
+	 */
+	@Bean
     public CommonsRequestLoggingFilter logFilter() {
         CommonsRequestLoggingFilter filter
           = new CommonsRequestLoggingFilter();

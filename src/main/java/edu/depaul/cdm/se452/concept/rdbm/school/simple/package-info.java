@@ -1,10 +1,11 @@
 /**
  * Demonstrate sql related
  * <ol>
- * <li>build.gradle that define JPA and 
+ * <li>build files that define JPA</li>
+ * <li>database runtime</li>
  * </ol>
- * @see Course for minimial code
- * @see Student for more detail code
+ * @see Course Course for minimial code
+ * @see Student Student for more detail code
  * @see application-dev.yml for logging details
  * @see application-prod.yml for alternate database details
  */
